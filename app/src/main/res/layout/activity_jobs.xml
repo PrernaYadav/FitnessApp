@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25sp">
+
+        <EditText
+            android:id="@+id/et_job_designation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/white_rounded_edit_text"
+            android:hint="Enter Skills, Designation, Role"
+            android:padding="20dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/et_job_experience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/white_rounded_edit_text"
+            android:hint="Experience"
+            android:inputType="number"
+            android:maxLength="2"
+            android:padding="20dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/et_job_salary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/white_rounded_edit_text"
+            android:hint="Minimum Salary Expected"
+            android:inputType="number"
+            android:maxLength="10"
+            android:padding="20dp"
+            android:singleLine="true" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_job_resume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:background="@drawable/white_rounded_edit_text"
+                android:elevation="0dp"
+                android:gravity="left"
+                android:padding="20dp"
+                android:singleLine="true"
+                android:text="Upload Resume (PDF, DOC)"
+                android:textAllCaps="false"
+                android:textColor="@color/gray"
+                android:textSize="17sp" />
+            <!--
+                    <TextView
+                        android:id="@+id/tv_job_certificates"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="9dp"
+                        android:elevation="0dp"
+                        android:background="@drawable/white_rounded_edit_text"
+                        android:text="Upload Certificates (PDF, DOC)"
+                        android:textAllCaps="false"
+                        android:textColor="@color/gray"
+                        android:textSize="17sp"
+                        android:padding="20dp"
+                        android:gravity="left"
+
+                        android:singleLine="true" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <Button
+
+                android:id="@+id/btn_job_submit"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_round_corner"
+                android:text="SUBMIT"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

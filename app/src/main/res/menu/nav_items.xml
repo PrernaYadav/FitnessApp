@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="100"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_tg_connect_events"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:orderInCategory="105"
+        android:title="TG Connect Events"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_become_sponsored_athlete"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:orderInCategory="105"
+        android:title="Become Sponsored Athlete"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_articles_and_videos"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:orderInCategory="105"
+        android:title="Articles And Videos"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_tg_athlete_recognition"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:orderInCategory="105"
+        android:title="TG Athlete Recognition"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_notification"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:orderInCategory="105"
+        android:title="Notifications"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_help"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:orderInCategory="105"
+        android:title="Help"
+        app:showAsAction="never" />
+</menu>

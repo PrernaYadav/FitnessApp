@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tg_connect"
+            android:icon="@drawable/icons_8_event_accepted"
+            android:title="TG Connect Events" />
+        <item
+            android:id="@+id/nav_become_sponsor"
+            android:icon="@drawable/icons_8_positive_dynamic"
+            android:title="Become Sponsored Athlete" />
+        <item
+            android:id="@+id/nav_article_video"
+            android:icon="@drawable/icons_8_advertising"
+            android:title="Articles And Videos" />
+        <item
+            android:id="@+id/nav_recognition"
+            android:icon="@drawable/icons_8_medal"
+            android:title="TG Athlete Recognition" />
+    </group>
+
+    <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/icons_8_groups"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/icons_8_help1"
+                android:title="Help" />
+    </group>
+
+</menu>

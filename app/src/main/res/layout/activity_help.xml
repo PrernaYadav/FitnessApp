@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:background="@drawable/icons_8_help"
+        android:layout_marginTop="20dp"
+               />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="30dp"
+    android:text="Feel Free To Ask"/>
+
+    <EditText
+        android:id="@+id/et_help"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_edit_text"
+        android:gravity="top"
+        android:hint="Type in your issue and submit it.
+We will have a look at resolve your issue asap."
+        android:padding="20dp" />
+
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:gravity="center">
+
+       <Button
+           android:id="@+id/btn_help_submit"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="top"
+           android:background="@drawable/button_round_corner"
+           android:text="Submit"
+
+           android:textColor="@color/white"
+           android:textSize="20dp" />
+   </LinearLayout>
+
+    </LinearLayout>

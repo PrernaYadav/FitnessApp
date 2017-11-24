@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.fluidsoft.fluidsoft.tgconnect.Sponsored3Activity">
+
+
+   <!--<android.support.v7.widget.Toolbar
+       android:id="@+id/toolbar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:background="?attr/colorPrimary"
+       android:elevation="6dp"
+       android:minHeight="?attr/actionBarSize"
+       android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+       app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+-->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+       android:padding="30dp"
+       android:weightSum="3">
+
+      <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+       >
+   <Spinner
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:layout_marginBottom="10dp"
+       android:id="@+id/spinner_select_level"
+       android:background="@drawable/rounded_edit_text"
+       >
+
+   </Spinner>
+
+   <Spinner
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:layout_marginBottom="10dp"
+android:id="@+id/spinner_select_city"
+       android:background="@drawable/rounded_edit_text"
+       >
+
+   </Spinner>
+
+   <Spinner
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:layout_marginBottom="10dp"
+android:id="@+id/spinner_select_category"
+       android:background="@drawable/rounded_edit_text"
+       >
+
+   </Spinner>
+
+   <Spinner
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:id="@+id/spinner_select_id_for_identification"
+       android:background="@drawable/rounded_edit_text"></Spinner>
+</LinearLayout>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:weightSum="2"
+       android:padding="20dp">
+
+      <Button
+          android:id="@+id/imageview_upload_photo"
+          android:layout_width="200dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:textAllCaps="false"
+          android:textColor="@color/app_color"
+          android:text="Upload Passport Size Image"
+          android:background="@drawable/rounded_edit_text"
+          />
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:visibility="gone"
+          android:id="@+id/imagePhoto"/>
+
+      <View
+          android:layout_width="30dp"
+          android:layout_height="match_parent">
+
+      </View>
+
+      <Button
+          android:id="@+id/imageview_upload_id"
+          android:layout_width="200dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:textAllCaps="false"
+          android:textColor="@color/app_color"
+          android:background="@drawable/rounded_edit_text"
+          android:text="Upload Valid ID Proof" />
+   </LinearLayout>
+
+      <Button
+          android:layout_width="200sp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:id="@+id/btn_submit"
+          android:text="SUBMIT"
+          android:textSize="20dp"
+          android:textColor="@color/white"
+          android:background="@drawable/button_round_corner"
+          />
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

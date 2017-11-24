@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+
+    <!--<android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_weight="1"
+            android:src="@drawable/final_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="top|center"
+            android:padding="20dp"
+            android:text="All set ! Thank you for your submission.We wish you all the best."
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <!--  <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="20dp"
+          android:gravity="top"
+          android:layout_weight="1"
+          android:text="The information provided by you will be checked for authenticity and you will recieve a sponsorship details on your email within 5 business days."
+          android:textSize="20dp" />
+
+
+  -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center">
+
+
+
+        <TextView
+            android:id="@+id/take_me_to_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawableTop="@drawable/home"
+            android:drawablePadding="30dp"
+            android:gravity="center|bottom"
+            android:padding="20dp"
+            android:text="TAKE ME TO HOME"
+            android:textColor="@color/app_color"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

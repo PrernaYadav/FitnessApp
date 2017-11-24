@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">TG CONNECT</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="facebook_app_id">265741533913218</string>
+    <string name="find_me_sponsor">
+        <![CDATA[
+<p> <b>Find Me A Sponsor</b> </p>
+<p><font color="#808080">Get your sponsership now !<br> Fill up the next form and</br><br> move ahead with us.</br></font></p>
+
+]]></string>
+
+
+    <string name="tg_events"> <![CDATA[
+    <p><b>TG Events </b></p>
+    <p><font color="#808080">Know the latest events<br> happening around you and </br><br>join millions of people.</br></font><p>]]></string>
+    <string name="splash1_text"> <![CDATA[<p> Let Us Help You <br/><b>Get Sponsored</b></p>]]></string>
+    <string name="splash2_text"> <![CDATA[<p> Get Inspired <br/><b>Join Events</b></p>]]></string>
+    <string name="splash3_text"> <![CDATA[<p> Share Achievements <br/><b>Get Recognised</p>]]></string>
+
+
+    <string name="news_and_articles">  <![CDATA[<p> <b>News And Articles </b> </p>
+<p><font color="#808080">Read the latest and<br> trending articles for </br><br>health, exercise and much more.</br></font><p>
+
+]]></string>
+
+    <string name="tg_athlete_recognition">   <![CDATA[
+<p> <b>TG Athlete Recognition</b> </p>
+<p><font color="#808080">Huge Collections of <br>our community pictures.</br><br>Get Recognized.</font></br></p>
+
+]]></string>
+
+
+    <string name="tg_athlete_job">   <![CDATA[
+<p> <b>Fitness Jobs</b> </p>
+<p><font color="#808080">We will help you make <br>a career in fitness.</br></font></p>
+
+]]></string>
+
+    <string name="tg_job_text">   <![CDATA[
+<p> <b>Thank you for submitting</b> </p>
+<p>your application</p>
+
+]]></string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="channel_url">https://www.youtube.com/channel/UCh1A78CgTpYeijYLvpNIAUQ</string>
+
+
+</resources>

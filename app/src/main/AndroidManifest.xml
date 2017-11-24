@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fluidsoft.fluidsoft.tgconnect">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider265741533913218"
+            android:exported="true" />
+
+        <activity android:name="com.fluidsoft.fluidsoft.tgconnect.SplashSplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.fluidsoft.fluidsoft.tgconnect.SignInActivity" />
+        <activity android:name="com.fluidsoft.fluidsoft.tgconnect.CategoryActivity" />
+        <activity
+            android:name="com.fluidsoft.fluidsoft.tgconnect.DetailFormActivity"
+            android:parentActivityName="com.fluidsoft.fluidsoft.tgconnect.CategoryActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.fluidsoft.fluidsoft.tgconnect.Sponsored2Activity"
+            android:parentActivityName="com.fluidsoft.fluidsoft.tgconnect.DetailFormActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.fluidsoft.fluidsoft.tgconnect.Sponsored3Activity"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.fluidsoft.fluidsoft.tgconnect.HomePageActivity" />
+        <activity
+            android:name="com.fluidsoft.fluidsoft.tgconnect.Sponsored4Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.fluidsoft.fluidsoft.tgconnect.ArticleAndVideosActivity"
+            android:parentActivityName="com.fluidsoft.fluidsoft.tgconnect.CategoryActivity" />
+        <activity android:name="com.fluidsoft.fluidsoft.tgconnect.EventsUpcomingActivity" />
+
+        <supports-screens
+            android:anyDensity="true"
+            android:compatibleWidthLimitDp="320"
+            android:largeScreens="true"
+            android:largestWidthLimitDp="320"
+            android:normalScreens="true"
+            android:requiresSmallestWidthDp="320"
+            android:resizeable="true"
+            android:smallScreens="true"
+            android:xlargeScreens="true" />
+
+        <activity android:name="com.fluidsoft.fluidsoft.tgconnect.NewsDetails" />
+        <activity android:name="com.fluidsoft.fluidsoft.tgconnect.AthleteActivity"
+            android:parentActivityName="com.fluidsoft.fluidsoft.tgconnect.CategoryActivity"/>
+        <activity android:name="com.fluidsoft.fluidsoft.tgconnect.ChooseEventActivity"
+            android:parentActivityName="com.fluidsoft.fluidsoft.tgconnect.CategoryActivity"/>
+        <activity android:name="com.fluidsoft.fluidsoft.tgconnect.EventsPreviousActivity" />
+        <activity android:name="com.fluidsoft.fluidsoft.tgconnect.JobsActivity" />
+        <activity
+            android:name="com.fluidsoft.fluidsoft.tgconnect.AboutUsActivity"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.fluidsoft.fluidsoft.tgconnect.JobSuccess" />
+        <activity android:name="com.fluidsoft.fluidsoft.tgconnect.HelpActivity"></activity>
+        <activity android:name="com.fluidsoft.fluidsoft.tgconnect.VideoAndArticalActivity"></activity>
+    </application>
+
+</manifest>

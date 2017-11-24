@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "60396429580",
+    "project_id": "tg-connect-8027f"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60396429580:android:07d50b5338b2981d",
+        "android_client_info": {
+          "package_name": "com.example.pr.fitnessapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60396429580-3uugkf1053dfen7gft6shdskleb2bqdj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pr.fitnessapp",
+            "certificate_hash": "b232975afb4ffad05181f6a9725cfd75ada5d76f"
+          }
+        },
+        {
+          "client_id": "60396429580-fa7dcl0sisahvptidb1p1qnflv3gvs1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDouF2BIxwhbnys4uzCBnRXHXtQiR3uNoA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

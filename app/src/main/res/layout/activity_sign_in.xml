@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <!-- <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:layout_marginBottom="20dp"
+                 android:src="@mipmap/ic_launcher_round" />-->
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="64.7dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/sign_up_logo"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:text="SUPPORTING  INDIAN  ATHLETES"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@color/edittext_back">
+
+            </View>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9.7dp"
+                android:background="@drawable/white_rounded_edit_text"
+                android:hint="Enter Username"
+                android:padding="20dp"
+                android:singleLine="true"
+                android:textColor="@color/app_color" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="9.7dp"
+                android:background="@drawable/white_rounded_edit_text"
+
+                android:hint="Enter Email"
+                android:padding="20dp"
+                android:singleLine="true"
+                android:textColor="@color/app_color" />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+
+                android:layout_marginLeft="9.7dp"
+                android:background="@drawable/white_rounded_edit_text"
+                android:hint="Enter Password"
+                android:padding="20dp"
+
+                android:singleLine="true"
+                android:textColor="@color/app_color" />
+
+            <TextView
+                android:id="@+id/txt_forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Forgot Password ?"
+                android:textColor="@color/colorAccent"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center|top">
+
+                <Button
+                    android:id="@+id/btn_sign_up"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center|top"
+                    android:background="@drawable/button_round_corner"
+                    android:elevation="10dp"
+                    android:gravity="center"
+                    android:text="SIGN UP"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Or Sign Up With"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+<!--
+
+            <ImageButton
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white" />
+
+-->
+
+
+            <Button
+                android:id="@+id/signin_facebook"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/facebook_button"
+                android:text="Facebook"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textSize="20dp"/>
+            <!--
+                        <com.facebook_button.login.widget.LoginButton
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/signin_facebook"
+                            android:background="@color/white"
+                            android:layout_weight="1"/>-->
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="match_parent">
+            </View>
+            <Button
+                android:id="@+id/signin_google"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/google_button"
+                android:text="Google"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textAllCaps="false"/>
+
+            <!--  <com.google.android.gms.common.SignInButton
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:id="@+id/google_signin">
+              </com.google.android.gms.common.SignInButton>-->
+       <!--     <ImageButton
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white" />
+-->
+
+            <!--    <ImageButton
+                    android:id="@+id/signin_twitter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+
+                    android:src="@mipmap/ic_launcher" />
+
+                <ImageButton
+                    android:id="@+id/signin_instagram"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:src="@mipmap/ic_launcher" />
+        -->
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
